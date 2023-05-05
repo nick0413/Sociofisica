@@ -6,6 +6,28 @@ import SBMLDiagrams as SBML
 import libsbml
 import re 
 
+
+def cargar_datos(tipo):
+	if tipo=='C':
+		my_file = open("Datos_componentes3.txt", "r")
+
+		data = my_file.read()
+
+		data_into_list = data.split("\n")
+		my_file.close()
+
+		return data_into_list
+	
+	if tipo=='R':
+		my_file = open("Datos_reacciones3.txt", "r")
+
+		data = my_file.read()
+
+		data_into_list = data.split("\n")
+		my_file.close()
+
+		return data_into_list
+
 def cargar_interacciones():
 	my_file = open("tipos_interaccion.txt", "r")
 
@@ -148,112 +170,53 @@ def uniones_3(frase,interacciones, elementos):
 
 def uniones_4(frase,interacciones, elementos):
 	parejas=[]
+	parejas2=[]
 
 	print(frase)
 
 	for elemento in elementos:
-		#print(elemento,frase.find(elemento))
-		if frase.find(elemento)!=-1:
-			parejas.append(elemento)
+		esta=False
+		grande=False
+		X=None
+		if not (elemento==''):
+			if frase.find(elemento)!=-1:
+				# for x in parejas:
+				# 	if x.find(elemento)!=-1:
+				# 		esta=True
+				# 	if elemento.find(x)!=-1:
+				# 		if frase.find(elemento):
+				# 			grande=True
+				# 			X=x
+
+				if not esta:
+					parejas.append(elemento)
+				if grande:
+					ind=parejas.index(X)
+					parejas[ind]=elemento
 	
+
 	print(parejas)
+
 
 	return parejas
 
 
 
 
-# ? Este bloque trae el archivo sbml como un modelo de libsbml
-
-sbml_file = "Datos.sbml"
-reader = libsbml.SBMLReader()
-document = reader.readSBMLFromFile(sbml_file)
-model = document.getModel()
-
-R=[]
-C=[]
-
-i=0
-for reaction in range(model.getNumReactions()): #Este ciclo trae las reacciones quimicas y las guarda en R
-	i=i+1
-	rxn=model.getReaction(reaction)
-	for modifier in range(rxn.getNumModifiers()):
-		mod=rxn.getModifier(modifier)
-		#print(mod.getId(),"en la reaccion", rxn.getId())
-
-	#print(f"{i} reacciones", rxn.getName())
-	R.append(rxn.getName())
-j=0
-for comp in range(model.getNumSpecies()):#Este ciclo trae las componentes quimicas y las guarda en C
-	j=j+1
-	componente=model.getSpecies(comp)
-	C.append((componente.getName()))
 
 
-C_elementos=[]
-
-'''
-Los componentes en el sistema de especies de SBML no estan estructurados correctamente 
-para la interpretacion de un grafo. Este bloque de codigo los reestructura apropiadamente.
-'''
-
-
-for i in C:
-
-	C_n1=i.split(",")
-	
-	for C_n2 in C_n1:
-		C_n=C_n2.split(":")
-		for componente in C_n:
-			#print(componente)
-			componente=re.sub("[\[].*?[\]]", "", componente)#esto borra lo que esta dentro de corchetes
-			componente=componente.strip()
-			#componente=re.sub(" ","-",componente)
-			#print(componente)
-			if componente != '':
-				if componente not in C_elementos:
-					C_elementos.append(componente)
-
-C2=[] 						#Listas separadas por guiones
-R2=[]
-for c in C_elementos:
-	h=re.sub(" ", "-", c)
-	C2.append('-'+h.lower()+'-')
-for r in R:
-	h=re.sub(" ", "-", r)
-	h=re.sub("bound", "-", h)
-	h=re.sub(",", "-", h)
-	h=re.sub(":", "-", h)
-	h=re.sub("-to-cell-surfaces-", "-to-cell-surface-", h)
-	R2.append('-'+h.lower()+'-')
-
-Comp_file=open("Datos_componentes2.txt",'w')
-for c in C2:
-	Comp_file.write(c+'\n')
-Comp_file.close()
-
-reac_file=open("Datos_reacciones2.txt",'w')
-for r in R2:
-	reac_file.write(r+'\n')
-reac_file.close()
-
-
+R=cargar_datos('R')
+C=cargar_datos('C')
 
 interacciones=cargar_interacciones()
 
 print_datos(R,C,'')
 
 t=0
-for r in R2:
-	h=uniones_4(r,interacciones,C2)
+for r in R:
+	h=uniones_4(r,interacciones,C)
 	t=t+1
-	#print(t)
-	if t>10:
-		break
-
-#uniones_3(R2[9],interacciones,C2)
-	
-
+	print('-----------\n-----------')
 
 
 
