@@ -7,6 +7,19 @@ import libsbml
 import re 
 
 
+
+def conexiones_implicitas(lista):
+
+	lista_listas=[]
+
+	start=lista[0]
+
+	for i in range(1,len(lista)-1):
+		lista_listas.append([start,lista[i]])
+
+	return lista_listas
+
+
 sbml_file = "Datos.sbml"
 reader = libsbml.SBMLReader()
 document = reader.readSBMLFromFile(sbml_file)
@@ -41,21 +54,41 @@ para la interpretacion de un grafo. Este bloque de codigo los reestructura aprop
 '''
 # for r in R:
 # 	print(r)
+conex_implicitas=[]
 for i in C:
 
 	C_n1=i.split(",")
 	
+
 	for C_n2 in C_n1:
+
 		C_n=C_n2.split(":")
+		conex=conexiones_implicitas(C_n)
+
+		for con in conex:
+
+			con[0]=re.sub("[\[].*?[\]]", "", con[0])#esto borra lo que esta dentro de corchetes
+			con[0]=con[0].strip()
+			con[0]=re.sub(' ','-',con[0])
+			con[1]=re.sub("[\[].*?[\]]", "", con[1])#esto borra lo que esta dentro de corchetes
+			con[1]=con[1].strip()
+			con[1]=re.sub(' ','-',con[1])
+			conex_implicitas.append(con)
+
 		for componente in C_n:
-			#print(componente)
-			componente=re.sub("[\(\[].*?[\)\]]", "", componente)#esto borra lo que esta dentro de corchetes
+
+			componente=re.sub("[\[].*?[\]]", "", componente)#esto borra lo que esta dentro de corchetes
 			componente=componente.strip()
-			#componente=re.sub(" ","-",componente)
-			#print(componente)
+			
 			if componente != '':
 				C_elementos.append(componente)
 
+
+conex_imp=open('Conexiones_implicitas.txt','w')
+for conex in conex_implicitas:
+	conex_imp.write(conex[0].lower()+','+conex[1].lower()+'\n')
+	
+conex_imp.close()
 
 
 C2=[]

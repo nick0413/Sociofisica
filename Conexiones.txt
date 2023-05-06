@@ -20,7 +20,6 @@ c4,c4a
 c4,c4b
 c1-inh,c1r
 c1-inh,c1s
-c5,c5
 factor-d,c3(h2o)
 factor-d,factor-b
 c2,c2a
@@ -123,3 +122,16 @@ fcn2,cell-surface
 c4b,c4b-binding-protein
 factor-h,c3bbb
 c5b,c6
+serping1,c4-activators
+c1q,c4-activators
+c1s,c4-activators
+c1r,c4-activators
+c4-activators,c2
+cpb2,c3a
+cpb2,c5a
+factor-i,mcp
+mcp,cr1
+c4bc2a,c4b
+c4bc2a,c2a
+c3bbb,c3
+c3bbb,bb

@@ -98,14 +98,14 @@ cbp2
 complement-factor-3
 c3c
 activated-thrombin
-(elane)
+elane
 ca2+
 c4a
 cfb(260-764)
 complement-factor-4
 c9(22-559)
 cfi(19-335)
-h2o
+(h2o)
 activated-c1s
 2xc1r
 c3
@@ -129,3 +129,4 @@ c4bp
 fcn2
 fcn3
 cpb2
+mcp

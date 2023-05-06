@@ -52,7 +52,7 @@
 -C2-
 -C5-
 -C5bT-
--C3-
+-C3(H2O)-
 -C4bC2a-
 -FCN3-oligomer-
 -MASP2-1-dimer-
@@ -63,6 +63,7 @@
 -C3bBb-
 -C-reactive-protein-pentamer-
 -phosphocholine-
+-CFI(340-583)-
 -CLU-
 -Host-cell-surface-
 -CD46-
@@ -81,6 +82,7 @@
 -C5-inhibitors-
 -FCN2-dodecamer-
 -FH-
+-CFB(26-764)-
 -C3f-
 -activated-MASPs-
 -C3-convertases-
@@ -93,9 +95,13 @@
 -Complement-factor-3-
 -C3c-
 -Activated-thrombin-
+-(ELANE)-
 -Ca2+-
 -C4a-
+-CFB(260-764)-
 -Complement-Factor-4-
+-C9(22-559)-
+-CFI(19-335)-
 -H2O-
 -Activated-C1S-
 -2xC1R-
@@ -103,6 +109,7 @@
 -C3a-desArg-
 -C5a-desArg-
 -Membrane-Attack-Complex-
+-CFB(26-259)-
 -11xCbxE-PROS1-
 -C4bC2a-complexes-
 -Properdin-oligomer-
