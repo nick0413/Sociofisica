@@ -7,6 +7,14 @@ import libsbml
 import re 
 
 
+def find_indices(list_to_check, item_to_find):
+    indices = []
+    for idx, value in enumerate(list_to_check):
+        if value == item_to_find:
+            indices.append(idx)
+    return indices
+
+
 def cargar_datos(tipo):
 	if tipo=='C':
 		my_file = open("Datos_componentes3.txt", "r")
@@ -170,9 +178,10 @@ def uniones_3(frase,interacciones, elementos):
 
 def uniones_4(frase,interacciones, elementos):
 	parejas=[]
+	parejas_index=[]
 	parejas2=[]
 
-	print(frase)
+	#print(frase)
 
 	for elemento in elementos:
 		esta=False
@@ -180,25 +189,67 @@ def uniones_4(frase,interacciones, elementos):
 		X=None
 		if not (elemento==''):
 			if frase.find(elemento)!=-1:
-				# for x in parejas:
-				# 	if x.find(elemento)!=-1:
-				# 		esta=True
-				# 	if elemento.find(x)!=-1:
-				# 		if frase.find(elemento):
-				# 			grande=True
-				# 			X=x
+				parejas.append(elemento)
+				parejas_index.append(frase.find(elemento))
 
-				if not esta:
-					parejas.append(elemento)
-				if grande:
-					ind=parejas.index(X)
-					parejas[ind]=elemento
+
+	for e1 in parejas:
+		big_brother_exists=False
+		big_brother=None
+		append=True
+
+		for e2 in parejas:
+			if e2.find(e1)!=-1:
+				if e1!=e2:
+					big_brother_exists=True
+					big_brother=e2
+
+		if big_brother_exists:
+			reps_bb=len(re.findall(big_brother,frase))
+			reps_e1=len(re.findall(e1,frase))
+			# print(big_brother,e1)
+			# print(reps_bb,reps_e1)
+			if reps_e1>reps_bb:
+				append=True
+			elif reps_e1<reps_bb:
+				append=False
+			else:
+				indexes_e1 = [match.start() for match in re.finditer(e1, frase)]
+				indexes_e2 = [match.start() for match in re.finditer(e1, frase)]
+				# print('|||||||||||||||||||||')
+				# print(indexes_e2,indexes_e1)
+				if indexes_e2==indexes_e1:
+					# print(False)
+					append=False
+
+		if append:
+			# print(e1)
+			parejas2.append(e1)
+
+
+
+	lista_listas=[]
+	sorted_matches = [x for _,x in sorted(zip(parejas_index,parejas))]
+
+	parejas3=[]
+	for e1 in sorted_matches:
+		if e1 in parejas2:
+			parejas3.append(e1)
+
 	
+	start=parejas3[0]
+	if len(parejas3)==1:
+		lista_listas.append([start,start])
 
-	print(parejas)
+	else:
+		for i in range(1,len(parejas3)):
+			h=[start,parejas3[i]]
+			lista_listas.append(h)
+
+	#print(lista_listas)
 
 
-	return parejas
+	return lista_listas
 
 
 
@@ -212,11 +263,32 @@ interacciones=cargar_interacciones()
 
 print_datos(R,C,'')
 
-t=0
+edges=[]
 for r in R:
 	h=uniones_4(r,interacciones,C)
-	t=t+1
-	print('-----------\n-----------')
+	for conexion in h:
+		edges.append(conexion)
+
+
+Conex=open("Conexiones.txt",'w')
+
+for edge in edges:
+	print(edge)
+
+	Conex.write(edge[0].strip('-')+','+edge[1].strip('-')+'\n')
+Conex.close()
+
+com_final=open("Componentes.txt","w")
+
+for c in C:
+	com_final.write(c.strip('-')+'\n')
+com_final.close()
+
+
+
+
+
+
 
 
 

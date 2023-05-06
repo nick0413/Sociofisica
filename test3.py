@@ -196,6 +196,19 @@ C_elementos=[]
 Los componentes en el sistema de especies de SBML no estan estructurados correctamente 
 para la interpretacion de un grafo. Este bloque de codigo los reestructura apropiadamente.
 '''
+com_org=open("Componentes_originales.txt",'w')
+
+for c in C:
+	com_org.write(c+'\n')
+
+com_org.close()
+
+rec_org=open("reacciones_originales.txt",'w')
+
+for r in R:
+	rec_org.write(r+'\n')
+
+rec_org.close()
 
 
 for i in C:

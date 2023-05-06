@@ -25,12 +25,13 @@ for reaction in range(model.getNumReactions()): #Este ciclo trae las reacciones 
 
 	#print(f"{i} reacciones", rxn.getName())
 	R.append(rxn.getName())
+print(i)
 j=0
 for comp in range(model.getNumSpecies()):#Este ciclo trae las componentes quimicas y las guarda en C
 	j=j+1
 	componente=model.getSpecies(comp)
 	C.append((componente.getName()))
-
+print(j)
 
 C_elementos=[]
 
@@ -75,14 +76,14 @@ for r in R:
 		R2.append('-'+r+'-')
 
 
-Comp_file=open("Datos_componentes.txt",'w')
+Comp_file=open("1.txt",'w')
 
 for c in C2:
 	Comp_file.write(c+'\n')
 
 Comp_file.close()
 
-React_file=open('Datos_reacciones.txt','w')
+React_file=open('2.txt','w')
 
 for r in R2:
 	React_file.write(r+'\n')

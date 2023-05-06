@@ -58,7 +58,6 @@
 -c4-binding-protein-
 -fcn3-oligomer-
 -masp2-1-dimer-
--c5b-c9-
 -activated-c1r-
 -cr1-
 -cfhr3-
@@ -124,3 +123,9 @@
 -c1r-
 -c1s-
 -c1-inh-
+-c1-
+-plasma-membrane-
+-c4bp-
+-fcn2-
+-fcn3-
+-cpb2-

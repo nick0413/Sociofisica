@@ -1,0 +1,72 @@
+CFHR dimers bind C3b
+CD46 binds C3b
+Properdin stabilizes C3b:Bb bound to cell surfaces
+Factor B binds to surface-associated C3b
+Formation of soluble VTN:C5b-C9 
+Activation of C1r
+CR2 binds C3d, C3dg, iC3b
+C4b binds to cell surface
+Formation of alternative pathway C5 convertase
+Factor I inactivates Factor H-boundC3b
+C4b binding protein displaces C2a
+Ficolin-1 binds to molecular patterns on the target cell surface
+Conversion of C4 into C4a and C4b
+C1-Inh binds and inactivates C1r, C1s
+Formation of classic pathway C5 convertase
+Factor D cleaves C3(H2O)-bound Factor B
+Conversion of C2 into C2a and C2b
+Hydrolysis of internal thioester in C4b
+C5 binds C5 inhibitors
+C3 convertases spontaneously dissociate
+C3(H2O):Factor Bb cleaves C3 to C3b and C3a
+Factor H binds host cell surface markers
+Factor H binds to C3b
+Vitronectin (VTN) binds to C5b:C6:C7
+Factor B binds to C3(H2O)
+Factor D cleaves C3b-bound Factor B
+Activation of C1s
+Factor I cleaves iC3b
+C4b binding protein binds Protein S
+C1-Inh binds Antigen: antibody: C1 complex activated C1r, C1s
+Complement factor I binds to extracellular Factor H:C3b
+Complement factor I complex formation
+Formation of Classical C3 convertase (C4b:C2a complex)
+C3a receptor binds anaphylatoxin C3a
+C5b:C6:C7 translocates to the plasma membrane
+Complement factor I inactivates C4BP-bound C4b
+Spontaneous hydrolysis of C3 thioester
+C3b binds to cell surface
+CD55 (DAF) promotes C3bBb/C4bC2a dissociation
+C4b binding protein binds C4bC2a
+Factor H displaces Bb
+Displacement of C2a/Bb by CR1
+CR2:C3d,C3dg,iC3b binds CD19:CD81
+Factor I inactivates MCP/CR1-bound C4b/C3b
+Clusterin binds C5b-C7, C8, C9
+Thrombin, ELANE cleave C5
+CD55 (DAF) binds C3bBb, C4bC2a
+Antigen:IgG:C1Q:2xActivated C1R:SERPING1:2xActivated C1S:SERPING1 dissociates
+Factor I inactivates plasma Factor H-bound C3b
+CR1 binds C3bBb/C4bC2a
+Activation of C5
+Complement factor I binds to membrane-associated Factor H:C3b
+Factor H binds to membrane-associated C3b
+CD46 binds C4b
+C7 binds C5b:C6
+CD59 inhibits MAC formation
+MBL binds to repetitive carbohydrate structures on the surfaces of viruses, bacteria, fungi, and protozoa
+Complement factor I binds C4BP
+C9 binds C5b:C6:C7:C8
+C5a receptor binds C5a anaphylatoxin
+CPN, CPB2 cleave C3a, C5a
+Cleavage of C3 by C3 convertases
+Complement factor I binds to MCP, CR1:C4b, C3b
+C8 binds C5b:C6:C7
+C5AR2 binds anaphylatoxins and thier desArginated derivatives
+Activation of MASPs
+CL-LK binds carbohydrates on target cell surface
+Ficolin-3 binds to molecular patterns on the target cell surface 
+Ficolin-2 binds to molecular patterns on the target cell surface 
+C4b-binding protein binds C4b
+Factor H binds to C3bBb
+C5b binds C6
