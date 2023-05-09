@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-06">
+    <creator>NetworkX 3.0</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="c3a" label="c3a" />
+      <node id="c5a" label="c5a" />
+      <node id="mbl2" label="mbl2" />
+      <node id="fcn" label="fcn" />
+      <node id="masps" label="masps" />
+      <node id="carbohydrates" label="carbohydrates" />
+      <node id="carbohydrate-patterns" label="carbohydrate-patterns" />
+      <node id="cell-surface" label="cell-surface" />
+      <node id="cfh" label="cfh" />
+      <node id="c5ar1" label="c5ar1" />
+      <node id="c5at" label="c5at" />
+      <node id="c3ar1" label="c3ar1" />
+      <node id="fcn2-ligands" label="fcn2-ligands" />
+      <node id="c4b" label="c4b" />
+      <node id="c2a" label="c2a" />
+      <node id="c2b" label="c2b" />
+      <node id="c4-binding-protein" label="c4-binding-protein" />
+      <node id="protein-s" label="protein-s" />
+      <node id="c4c" label="c4c" />
+      <node id="antigen" label="antigen" />
+      <node id="igg" label="igg" />
+      <node id="c1q" label="c1q" />
+      <node id="2xactivated-c1r" label="2xactivated-c1r" />
+      <node id="serping1" label="serping1" />
+      <node id="2xactivated-c1s" label="2xactivated-c1s" />
+      <node id="c3d" label="c3d" />
+      <node id="c3dg" label="c3dg" />
+      <node id="ic3b" label="ic3b" />
+      <node id="c3b" label="c3b" />
+      <node id="c4b-binding-protein" label="c4b-binding-protein" />
+      <node id="factor-i" label="factor-i" />
+      <node id="fcn3-ligands" label="fcn3-ligands" />
+      <node id="fcn3-multimer" label="fcn3-multimer" />
+      <node id="masp1-dimer" label="masp1-dimer" />
+      <node id="masp2-dimer" label="masp2-dimer" />
+      <node id="4xca2+" label="4xca2+" />
+      <node id="c5ar2" label="c5ar2" />
+      <node id="c5ar2-ligands" label="c5ar2-ligands" />
+      <node id="cfi" label="cfi" />
+      <node id="fhr3" label="fhr3" />
+      <node id="c4b-with-hydrolysed-thioester" label="c4b-with-hydrolysed-thioester" />
+      <node id="cfhr-dimers" label="cfhr-dimers" />
+      <node id="cl-lk" label="cl-lk" />
+      <node id="bacterial-mannose-surface-pattern" label="bacterial-mannose-surface-pattern" />
+      <node id="c5b" label="c5b" />
+      <node id="c6" label="c6" />
+      <node id="c7" label="c7" />
+      <node id="factor-d" label="factor-d" />
+      <node id="vtn" label="vtn" />
+      <node id="bb" label="bb" />
+      <node id="properdin" label="properdin" />
+      <node id="c2" label="c2" />
+      <node id="c5" label="c5" />
+      <node id="c5bt" label="c5bt" />
+      <node id="c3(h2o)" label="c3(h2o)" />
+      <node id="c4bc2a" label="c4bc2a" />
+      <node id="fcn3-oligomer" label="fcn3-oligomer" />
+      <node id="masp2-1-dimer" label="masp2-1-dimer" />
+      <node id="activated-c1r" label="activated-c1r" />
+      <node id="cr1" label="cr1" />
+      <node id="cfhr3" label="cfhr3" />
+      <node id="c3bbb" label="c3bbb" />
+      <node id="cfi(340-583)" label="cfi(340-583)" />
+      <node id="clu" label="clu" />
+      <node id="host-cell-surface" label="host-cell-surface" />
+      <node id="cd46" label="cd46" />
+      <node id="c3b-complexes" label="c3b-complexes" />
+      <node id="mbl2-dodecamer" label="mbl2-dodecamer" />
+      <node id="c4d" label="c4d" />
+      <node id="cfb" label="cfb" />
+      <node id="2x-activated-c1r" label="2x-activated-c1r" />
+      <node id="2x-activated-c1s" label="2x-activated-c1s" />
+      <node id="cd55" label="cd55" />
+      <node id="cd19" label="cd19" />
+      <node id="cd81" label="cd81" />
+      <node id="2xc1s" label="2xc1s" />
+      <node id="c8" label="c8" />
+      <node id="c9" label="c9" />
+      <node id="c5-inhibitors" label="c5-inhibitors" />
+      <node id="fcn2-dodecamer" label="fcn2-dodecamer" />
+      <node id="fh" label="fh" />
+      <node id="cfb(26-764)" label="cfb(26-764)" />
+      <node id="c3f" label="c3f" />
+      <node id="activated-masps" label="activated-masps" />
+      <node id="c3-convertases" label="c3-convertases" />
+      <node id="fcn1-ligands" label="fcn1-ligands" />
+      <node id="fcn1-dodecamer" label="fcn1-dodecamer" />
+      <node id="fcn1" label="fcn1" />
+      <node id="c4" label="c4" />
+      <node id="c4-activators" label="c4-activators" />
+      <node id="cr2" label="cr2" />
+      <node id="cpn" label="cpn" />
+      <node id="complement-factor-3" label="complement-factor-3" />
+      <node id="c3c" label="c3c" />
+      <node id="ca2+" label="ca2+" />
+      <node id="c4a" label="c4a" />
+      <node id="cfb(260-764)" label="cfb(260-764)" />
+      <node id="complement-factor-4" label="complement-factor-4" />
+      <node id="c9(22-559)" label="c9(22-559)" />
+      <node id="cfi(19-335)" label="cfi(19-335)" />
+      <node id="(h2o)" label="(h2o)" />
+      <node id="activated-c1s" label="activated-c1s" />
+      <node id="2xc1r" label="2xc1r" />
+      <node id="c3" label="c3" />
+      <node id="c3-convertase-complexes" label="c3-convertase-complexes" />
+      <node id="c3a-desarg" label="c3a-desarg" />
+      <node id="c5a-desarg" label="c5a-desarg" />
+      <node id="cfb(26-259)" label="cfb(26-259)" />
+      <node id="c4bc2a-complexes" label="c4bc2a-complexes" />
+      <node id="properdin-oligomer" label="properdin-oligomer" />
+      <node id="c5-convertases" label="c5-convertases" />
+      <node id="factor-b" label="factor-b" />
+      <node id="factor-h" label="factor-h" />
+      <node id="c1r" label="c1r" />
+      <node id="c1s" label="c1s" />
+      <node id="c1-inh" label="c1-inh" />
+      <node id="c1" label="c1" />
+      <node id="plasma-membrane" label="plasma-membrane" />
+      <node id="c4bp" label="c4bp" />
+      <node id="fcn2" label="fcn2" />
+      <node id="fcn3" label="fcn3" />
+      <node id="cpb2" label="cpb2" />
+      <node id="mcp" label="mcp" />
+    </nodes>
+    <edges>
+      <edge source="c3a" target="c3(h2o)" id="0" />
+      <edge source="c3a" target="cpn" id="1" />
+      <edge source="c3a" target="cpb2" id="2" />
+      <edge source="c3a" target="c3ar1" id="3" />
+      <edge source="c3a" target="c3a-desarg" id="4" />
+      <edge source="c3a" target="c3" id="5" />
+      <edge source="c5a" target="cpn" id="6" />
+      <edge source="c5a" target="cpb2" id="7" />
+      <edge source="c5a" target="c5ar1" id="8" />
+      <edge source="c5a" target="c5at" id="9" />
+      <edge source="c5a" target="c5ar2" id="10" />
+      <edge source="c5a" target="c5ar2-ligands" id="11" />
+      <edge source="c5a" target="c5a-desarg" id="12" />
+      <edge source="c5a" target="c5" id="13" />
+      <edge source="mbl2" target="mbl2-dodecamer" id="14" />
+      <edge source="fcn" target="fcn2-ligands" id="15" />
+      <edge source="fcn" target="fcn3-ligands" id="16" />
+      <edge source="fcn" target="fcn3-multimer" id="17" />
+      <edge source="fcn" target="fcn3-oligomer" id="18" />
+      <edge source="fcn" target="fcn2-dodecamer" id="19" />
+      <edge source="fcn" target="fcn1-ligands" id="20" />
+      <edge source="fcn" target="fcn1-dodecamer" id="21" />
+      <edge source="fcn" target="fcn1" id="22" />
+      <edge source="fcn" target="fcn2" id="23" />
+      <edge source="fcn" target="fcn3" id="24" />
+      <edge source="fcn" target="masps" id="25" />
+      <edge source="fcn" target="activated-masps" id="26" />
+      <edge source="fcn" target="carbohydrate-patterns" id="27" />
+      <edge source="masps" target="activated-masps" id="28" />
+      <edge source="carbohydrates" target="cl-lk" id="29" />
+      <edge source="carbohydrate-patterns" target="4xca2+" id="30" />
+      <edge source="cell-surface" target="properdin" id="31" />
+      <edge source="cell-surface" target="c4b" id="32" />
+      <edge source="cell-surface" target="fcn1" id="33" />
+      <edge source="cell-surface" target="c3b" id="34" />
+      <edge source="cell-surface" target="cl-lk" id="35" />
+      <edge source="cell-surface" target="fcn3" id="36" />
+      <edge source="cell-surface" target="fcn2" id="37" />
+      <edge source="cell-surface" target="host-cell-surface" id="38" />
+      <edge source="cell-surface" target="bb" id="39" />
+      <edge source="cell-surface" target="cd46" id="40" />
+      <edge source="cfh" target="cfhr-dimers" id="41" />
+      <edge source="cfh" target="cfhr3" id="42" />
+      <edge source="cfh" target="fh" id="43" />
+      <edge source="cfh" target="cfi" id="44" />
+      <edge source="c5ar1" target="c5" id="45" />
+      <edge source="c5at" target="c5" id="46" />
+      <edge source="c3ar1" target="c3" id="47" />
+      <edge source="fcn2-ligands" target="fcn2" id="48" />
+      <edge source="fcn2-ligands" target="fcn2-dodecamer" id="49" />
+      <edge source="fcn2-ligands" target="masp1-dimer" id="50" />
+      <edge source="fcn2-ligands" target="masp2-1-dimer" id="51" />
+      <edge source="c4b" target="c4" id="52" />
+      <edge source="c4b" target="c3-convertases" id="53" />
+      <edge source="c4b" target="factor-i" id="54" />
+      <edge source="c4b" target="cd46" id="55" />
+      <edge source="c4b" target="c4b-binding-protein" id="56" />
+      <edge source="c4b" target="c4bc2a" id="57" />
+      <edge source="c4b" target="c4b-with-hydrolysed-thioester" id="58" />
+      <edge source="c4b" target="c4bc2a-complexes" id="59" />
+      <edge source="c4b" target="c4bp" id="60" />
+      <edge source="c4b" target="cr1" id="61" />
+      <edge source="c4b" target="c2a" id="62" />
+      <edge source="c2a" target="c4b-binding-protein" id="63" />
+      <edge source="c2a" target="c2" id="64" />
+      <edge source="c2a" target="c3-convertases" id="65" />
+      <edge source="c2a" target="bb" id="66" />
+      <edge source="c2a" target="cr1" id="67" />
+      <edge source="c2a" target="c4bc2a" id="68" />
+      <edge source="c2a" target="c4bc2a-complexes" id="69" />
+      <edge source="c2b" target="c2" id="70" />
+      <edge source="c4-binding-protein" target="c4" id="71" />
+      <edge source="protein-s" target="c4b-binding-protein" id="72" />
+      <edge source="c4c" target="c4" id="73" />
+      <edge source="antigen" target="c1" id="74" />
+      <edge source="antigen" target="igg" id="75" />
+      <edge source="antigen" target="c1q" id="76" />
+      <edge source="antigen" target="2xactivated-c1r" id="77" />
+      <edge source="antigen" target="serping1" id="78" />
+      <edge source="antigen" target="2xactivated-c1s" id="79" />
+      <edge source="antigen" target="2x-activated-c1r" id="80" />
+      <edge source="antigen" target="2xc1r" id="81" />
+      <edge source="c1q" target="c4-activators" id="82" />
+      <edge source="c1q" target="c1" id="83" />
+      <edge source="2xactivated-c1r" target="activated-c1r" id="84" />
+      <edge source="2xactivated-c1r" target="c1r" id="85" />
+      <edge source="2xactivated-c1r" target="c1" id="86" />
+      <edge source="serping1" target="c4-activators" id="87" />
+      <edge source="2xactivated-c1s" target="activated-c1s" id="88" />
+      <edge source="2xactivated-c1s" target="c1s" id="89" />
+      <edge source="2xactivated-c1s" target="c1" id="90" />
+      <edge source="c3d" target="cr2" id="91" />
+      <edge source="c3d" target="c3dg" id="92" />
+      <edge source="c3d" target="c3" id="93" />
+      <edge source="c3dg" target="cr2" id="94" />
+      <edge source="c3dg" target="c3" id="95" />
+      <edge source="ic3b" target="cr2" id="96" />
+      <edge source="ic3b" target="factor-i" id="97" />
+      <edge source="ic3b" target="c3b" id="98" />
+      <edge source="ic3b" target="c3" id="99" />
+      <edge source="ic3b" target="cd19" id="100" />
+      <edge source="c3b" target="cfhr-dimers" id="101" />
+      <edge source="c3b" target="cd46" id="102" />
+      <edge source="c3b" target="properdin" id="103" />
+      <edge source="c3b" target="factor-b" id="104" />
+      <edge source="c3b" target="factor-i" id="105" />
+      <edge source="c3b" target="c3(h2o)" id="106" />
+      <edge source="c3b" target="factor-h" id="107" />
+      <edge source="c3b" target="factor-d" id="108" />
+      <edge source="c3b" target="cd55" id="109" />
+      <edge source="c3b" target="c3bbb" id="110" />
+      <edge source="c3b" target="c3b-complexes" id="111" />
+      <edge source="c3b" target="c3" id="112" />
+      <edge source="c3b" target="bb" id="113" />
+      <edge source="c4b-binding-protein" target="c3-convertases" id="114" />
+      <edge source="c4b-binding-protein" target="c4" id="115" />
+      <edge source="factor-i" target="factor-h" id="116" />
+      <edge source="factor-i" target="c4bp" id="117" />
+      <edge source="factor-i" target="cr1" id="118" />
+      <edge source="factor-i" target="mcp" id="119" />
+      <edge source="fcn3-ligands" target="fcn3" id="120" />
+      <edge source="fcn3-ligands" target="fcn3-multimer" id="121" />
+      <edge source="fcn3-ligands" target="masp1-dimer" id="122" />
+      <edge source="fcn3-ligands" target="masp2-dimer" id="123" />
+      <edge source="fcn3-multimer" target="fcn3" id="124" />
+      <edge source="masp1-dimer" target="cl-lk" id="125" />
+      <edge source="masp1-dimer" target="fcn3-oligomer" id="126" />
+      <edge source="masp1-dimer" target="mbl2-dodecamer" id="127" />
+      <edge source="masp1-dimer" target="fcn1-ligands" id="128" />
+      <edge source="masp1-dimer" target="fcn2-dodecamer" id="129" />
+      <edge source="masp1-dimer" target="fcn1-dodecamer" id="130" />
+      <edge source="masp2-dimer" target="cl-lk" id="131" />
+      <edge source="4xca2+" target="ca2+" id="132" />
+      <edge source="c5ar2" target="c5ar2-ligands" id="133" />
+      <edge source="c5ar2" target="c5" id="134" />
+      <edge source="c5ar2-ligands" target="c5" id="135" />
+      <edge source="cfi" target="cfi(340-583)" id="136" />
+      <edge source="cfi" target="cfi(19-335)" id="137" />
+      <edge source="fhr3" target="cfhr3" id="138" />
+      <edge source="fhr3" target="fh" id="139" />
+      <edge source="c4b-with-hydrolysed-thioester" target="c4" id="140" />
+      <edge source="cfhr-dimers" target="fh" id="141" />
+      <edge source="cl-lk" target="bacterial-mannose-surface-pattern" id="142" />
+      <edge source="bacterial-mannose-surface-pattern" target="mbl2-dodecamer" id="143" />
+      <edge source="c5b" target="vtn" id="144" />
+      <edge source="c5b" target="c6" id="145" />
+      <edge source="c5b" target="c7" id="146" />
+      <edge source="c5b" target="plasma-membrane" id="147" />
+      <edge source="c5b" target="c8" id="148" />
+      <edge source="c5b" target="c9" id="149" />
+      <edge source="c5b" target="c5bt" id="150" />
+      <edge source="c5b" target="c5" id="151" />
+      <edge source="c5b" target="clu" id="152" />
+      <edge source="c6" target="vtn" id="153" />
+      <edge source="c6" target="c7" id="154" />
+      <edge source="c6" target="c9" id="155" />
+      <edge source="c6" target="c8" id="156" />
+      <edge source="c6" target="clu" id="157" />
+      <edge source="c7" target="vtn" id="158" />
+      <edge source="c7" target="c9" id="159" />
+      <edge source="c7" target="c8" id="160" />
+      <edge source="factor-d" target="c3(h2o)" id="161" />
+      <edge source="factor-d" target="factor-b" id="162" />
+      <edge source="vtn" target="c9" id="163" />
+      <edge source="vtn" target="c8" id="164" />
+      <edge source="bb" target="properdin" id="165" />
+      <edge source="bb" target="c3(h2o)" id="166" />
+      <edge source="bb" target="cd55" id="167" />
+      <edge source="bb" target="factor-h" id="168" />
+      <edge source="bb" target="c3bbb" id="169" />
+      <edge source="properdin" target="properdin-oligomer" id="170" />
+      <edge source="c2" target="c4-activators" id="171" />
+      <edge source="c2" target="c4bc2a" id="172" />
+      <edge source="c2" target="c4bc2a-complexes" id="173" />
+      <edge source="c5" target="c5-inhibitors" id="174" />
+      <edge source="c5" target="c5bt" id="175" />
+      <edge source="c5" target="c5a-desarg" id="176" />
+      <edge source="c5" target="c5-convertases" id="177" />
+      <edge source="c3(h2o)" target="c3" id="178" />
+      <edge source="c3(h2o)" target="factor-b" id="179" />
+      <edge source="c3(h2o)" target="(h2o)" id="180" />
+      <edge source="c3(h2o)" target="cfb" id="181" />
+      <edge source="c4bc2a" target="cr1" id="182" />
+      <edge source="c4bc2a" target="c4bc2a-complexes" id="183" />
+      <edge source="c4bc2a" target="c4" id="184" />
+      <edge source="fcn3-oligomer" target="fcn3" id="185" />
+      <edge source="masp2-1-dimer" target="mbl2-dodecamer" id="186" />
+      <edge source="masp2-1-dimer" target="fcn1-ligands" id="187" />
+      <edge source="activated-c1r" target="c1" id="188" />
+      <edge source="activated-c1r" target="2x-activated-c1r" id="189" />
+      <edge source="activated-c1r" target="c1r" id="190" />
+      <edge source="cr1" target="c3bbb" id="191" />
+      <edge source="cr1" target="mcp" id="192" />
+      <edge source="cfhr3" target="fh" id="193" />
+      <edge source="c3bbb" target="cd55" id="194" />
+      <edge source="c3bbb" target="factor-h" id="195" />
+      <edge source="c3bbb" target="c3" id="196" />
+      <edge source="host-cell-surface" target="factor-h" id="197" />
+      <edge source="c3b-complexes" target="c3" id="198" />
+      <edge source="c4d" target="c4" id="199" />
+      <edge source="cfb" target="cfb(26-764)" id="200" />
+      <edge source="cfb" target="cfb(260-764)" id="201" />
+      <edge source="cfb" target="cfb(26-259)" id="202" />
+      <edge source="2x-activated-c1r" target="c1r" id="203" />
+      <edge source="2x-activated-c1r" target="c1" id="204" />
+      <edge source="2x-activated-c1s" target="activated-c1s" id="205" />
+      <edge source="2x-activated-c1s" target="c1s" id="206" />
+      <edge source="2x-activated-c1s" target="c1" id="207" />
+      <edge source="cd55" target="c3-convertases" id="208" />
+      <edge source="cd19" target="cr2" id="209" />
+      <edge source="cd81" target="cr2" id="210" />
+      <edge source="2xc1s" target="c1s" id="211" />
+      <edge source="2xc1s" target="c1" id="212" />
+      <edge source="c8" target="c9" id="213" />
+      <edge source="c9" target="c9(22-559)" id="214" />
+      <edge source="fcn2-dodecamer" target="fcn2" id="215" />
+      <edge source="c3f" target="c3" id="216" />
+      <edge source="c3-convertases" target="c3" id="217" />
+      <edge source="fcn1-ligands" target="fcn1" id="218" />
+      <edge source="fcn1-ligands" target="fcn1-dodecamer" id="219" />
+      <edge source="fcn1-dodecamer" target="fcn1" id="220" />
+      <edge source="c4" target="c4a" id="221" />
+      <edge source="c4" target="c4-activators" id="222" />
+      <edge source="c4" target="c4bc2a-complexes" id="223" />
+      <edge source="c4" target="c4bp" id="224" />
+      <edge source="c4" target="complement-factor-4" id="225" />
+      <edge source="c4-activators" target="c1s" id="226" />
+      <edge source="c4-activators" target="c1r" id="227" />
+      <edge source="cpn" target="cpb2" id="228" />
+      <edge source="complement-factor-3" target="c3" id="229" />
+      <edge source="c3c" target="c3" id="230" />
+      <edge source="activated-c1s" target="c1s" id="231" />
+      <edge source="activated-c1s" target="c1" id="232" />
+      <edge source="2xc1r" target="c1r" id="233" />
+      <edge source="2xc1r" target="c1" id="234" />
+      <edge source="c3" target="c3-convertase-complexes" id="235" />
+      <edge source="c3" target="c3a-desarg" id="236" />
+      <edge source="c1r" target="c1-inh" id="237" />
+      <edge source="c1r" target="c1" id="238" />
+      <edge source="c1s" target="c1-inh" id="239" />
+      <edge source="c1s" target="c1" id="240" />
+      <edge source="c1-inh" target="c1" id="241" />
+    </edges>
+  </graph>
+</gexf>
